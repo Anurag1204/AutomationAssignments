@@ -5,9 +5,7 @@ public class Assignment_2_Arrays {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String[] categories = {"Groceries","Electronics"};
-		String[] subcategories = {"Beverages","Snacks","Dairy Products","Produce"};
-		
+	
 		String[][][] Supermarket = new String[2][4][5];
 		
 		Supermarket[0][0][0]= "Cola";
