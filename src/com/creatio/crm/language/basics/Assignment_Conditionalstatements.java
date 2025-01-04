@@ -24,7 +24,7 @@ public class Assignment_Conditionalstatements {
 		} else if (creditScore >= 650 && creditScore < 750) {
 			if (income >= 50000 && isEmployed == true && debtToIncomeRatio < 40.0) {
 				System.out.println(customerName + " is eligible for loan with additional checks");
-		}
+			}
 
 		} else {
 			System.out.println(customerName + " is not eligible for loan");
