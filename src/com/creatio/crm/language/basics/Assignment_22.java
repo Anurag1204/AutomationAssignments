@@ -8,7 +8,7 @@ public class Assignment_22 {
 
 	public static String getPrefix(String[] str) {
 
-		String prefix = "";
+		
 		// Sort the arrays of string
 		Arrays.sort(str);
 
@@ -21,7 +21,7 @@ public class Assignment_22 {
 		int i = 0;
 		
 		while(i< min_length && first.charAt(i) != last.charAt(i)) {
-			return "";
+			return "empty";
 		};
 		
 		
