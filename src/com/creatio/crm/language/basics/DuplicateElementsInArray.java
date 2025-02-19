@@ -13,16 +13,11 @@ public class DuplicateElementsInArray {
 		Set<Integer> set = new HashSet<Integer>();
 
 		for (int i : arr) {
-			if (set.add(i) == false) {
-				flag = true;
-				System.out.println("Duplicate element is " + i);
-				
+			if (set.contains(i)) {
+				System.out.println(i + " is a duplicate");
+			} else {
+				set.add(i);
 			}
-
-		}
-
-		if (flag == false) {
-			System.out.println("No duplicate element found");
 		}
 
 	}
